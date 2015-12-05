@@ -82,7 +82,7 @@
 	  <tbody>
 		<tr>
 		  <td class="status-label">Go</td>
-		  <td class="value">0</td>
+		  <td class="value">00</td>
 		</tr>
 		<tr>
 		  <td class="status-label">Java</td>
