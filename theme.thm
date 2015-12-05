@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="ujianVerification" content="255bcc0be16a32d37332010cc5220c5b" />
+	<title>mdblog</title>
+	<link rel="shortcut icon" href="http://7xku3c.com1.z0.glb.clouddn.com/bfish.png" type="image/x-icon">
+	<link href="http://7xku3c.com1.z0.glb.clouddn.com/md_style.css" rel="stylesheet">
+
+	<link href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://cdn.bootcss.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="http://static.bootcss.com/www/assets/css/site.min.css?v5" rel="stylesheet">
+    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github2-53964e9b93636aa437196c028e3b15febd3c6d5a52d4e8368a9c2894932d294e.css" integrity="sha256-U5ZOm5NjaqQ3GWwCjjsV/r08bVpS1Og2ipwolJMtKU4=" media="all" rel="stylesheet" />
+</head>
+	<body>
+		<div class="container">
+			<nav class="navbar navbar-default" role="navigation" id="navbar">
+				<div class="collapse navbar-collapse navbar-ex1-collapse">
+					<ul class="nav navbar-nav" id="menu">
+						<li><a href="/">Home</a></li>
+						<li><a href="/Go">Go</a></li>
+						<li><a href="/Java">Java</a></li>
+						<li><a href="/Linux">Linux</a></li>
+						<li><a href="/Item">Item</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+
+		<div class="container">
+            <div class="col-md-8">			
+			<div class="content">
+				{{.MDContent}}
+				<hr>
+				<div>
+					<!-- JiaThis Button BEGIN -->
+					<div class="jiathis_style">
+						<span class="jiathis_txt">分享到：</span>
+						<a class="jiathis_button_qzone">QQ空间</a>
+						<a class="jiathis_button_tsina">新浪微博</a>
+						<a class="jiathis_button_tqq">腾讯微博</a>
+						<a class="jiathis_button_weixin">微信</a>
+						<a href="http://www.jiathis.com/share?uid=2073499" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank">更多</a>
+						<a class="jiathis_counter_style"></a>
+					</div>
+					<script type="text/javascript">
+					var jiathis_config = {data_track_clickback:'true'};
+					</script>
+					<script type="text/javascript" src="http://v3.jiathis.com/code_mini/jia.js?uid=2073499" charset="utf-8"></script>
+					<!-- JiaThis Button END -->
+				</div>
+				<p><br></p>
+			</div>
+		<!-- UY BEGIN -->
+		<div id="uyan_frame"></div>
+		<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2073499"></script>
+		<!-- UY END -->  
+
+		</div>
+
+			<div class="col-md-4 sidebar">
+			  <div class="panel panel-default">
+				<div class="panel-body">
+				  <div align="left">
+				  	<h4><small>学习链接</small></h4>
+				  </div>
+				  <hr>					
+					<strong><a href="https://gowalker.org/" title="gowalker" rel="nofollow">gowalker</a></strong> 
+					<strong><a href="https://godoc.org/" title="godoc" rel="nofollow">godoc</a></strong> 
+					<strong><a href="https://gopm.io/" title="gopm" rel="nofollow">gopm</a></strong> 
+					<strong><a href="http://stdlib-shaalx.myalauda.cn/" title="stdlib" rel="nofollow">gostd</a></strong>
+				</div>
+			  </div>
+
+<div class="panel panel-default">
+	<div class="panel-heading">
+	  <h3 class="panel-title">状态</h3>
+	</div>
+	<table width="100%" class="status">
+	  <thead>
+		<tr>
+		  <th>&nbsp;</th>
+		  <th></th>
+		</tr>
+	  </thead>
+	  <tbody>
+		<tr>
+		  <td class="status-label">Go</td>
+		  <td class="value">4</td>
+		</tr>
+		<tr>
+		  <td class="status-label">Java</td>
+		  <td class="value">2</td>
+		</tr>
+		<tr>
+		  <td class="status-label">Item</td>
+		  <td class="value">4</td>
+		</tr>
+		<tr>
+		  <td class="status-label">Linux</td>
+		  <td class="value">5</td>
+		</tr>
+	  </tbody>
+	</table>
+  </div>
+
+			<!-- UJian Button BEGIN -->
+			<div class="ujian-hook"></div> 
+			<script type="text/javascript" src="http://v1.ujian.cc/code/ujian.js?fade=1&uid=2073499"></script>
+			<a href="http://www.ujian.cc" style="border:0;"><img src="http://img.ujian.cc/pixel.png" alt="友荐云推荐" style="border:0;padding:0;margin:0;" /></a>
+			<!-- UJian Button END -->
+
+		</div>
+
+
+		<div class="col-md-12">
+		<footer class="footer">
+			<div class="row footer-bottom">
+				<ul class="list-inline text-center">
+					<div class="copy-right" style="color:#4d5152">
+						<h6><small> ©2015 shaalx </small></h6>
+					</div>
+				</ul>
+			</div>
+		</footer>
+		</div>
+	</body>
+</html>
