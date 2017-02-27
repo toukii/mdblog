@@ -1,0 +1,8 @@
+*.xwd
+*.tmp
+mdbg
+*.exe
+*.html
+/mdbg/
+/Go/src/
+/MDFs/
