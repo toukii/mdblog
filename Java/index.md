@@ -10,6 +10,12 @@ export CLASSPATH=.:$JAVA_HOME/lib:$JAVA_HOME/lib/tools.jar
 
 --------------------------------------
 
+##  [redis-lock](redis-lock.html)
+
+redis lock
+
+--------------------------------------
+
 ##	[servlet](servlet.html)
 
 *	servlet config
