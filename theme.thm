@@ -1,124 +1,153 @@
+
 <!DOCTYPE html>
-<html>
-<head>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>时永宾的博客</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="时永宾的博客" />
+	<meta name="keywords" content="blog" />
+	
 
-<meta charset="utf-8">
-<title>mdblog</title>
-<link rel="shortcut icon" href="http://7xku3c.com1.z0.glb.clouddn.com/China.ico" type="image/x-icon">
-<link href="http://7xku3c.com1.z0.glb.clouddn.com/md_style.css" rel="stylesheet">
-<link href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
-<link href="http://cdn.bootcss.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-<link href="http://static.bootcss.com/www/assets/css/site.min.css?v5" rel="stylesheet">
-<link href="http://7xku3c.com1.z0.glb.clouddn.com/github.css" rel="stylesheet" />
-<script src="https://cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
-<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/styles/default.min.css">
-<script src="http://7xku3c.com1.z0.glb.clouddn.com/highlight.js"></script>
-<script type="text/javascript">
-	$(document).ready(function (argument) {
-		$('pre').each(function(i, block) {
-		    hljs.highlightBlock(block);
-		 });
-		// hljs.initHighlightingOnLoad();
-	});
-</script>
-</head>
-	<body style="background-image: 'http://bpic.ooopic.com/15/98/23/15982392-b787541c2c78a7cd09bc041593f3968e-0.jpg'">
-		<div class="container">
-			<nav class="navbar navbar-default" role="navigation" id="navbar">
-				<div class="collapse navbar-collapse navbar-ex1-collapse">
-					<ul class="nav navbar-nav" id="menu">
-						<li><a href="/"><i class="fa fa-home"></i></a></li>
-						<li><a href="/Go">Go</a></li>
-						<li><a href="/Java">Java</a></li>
-						<li><a href="/Linux">Linux</a></li>
-						<li><a href="/Item">Item</a></li>
-						<li><a href="/Docker">Docker</a></li>
-						<li><a href="/Plan">Plan</a></li>
+  
+
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<!-- <link rel="shortcut icon" href="favicon.ico"> -->
+	
+	<link rel="stylesheet" href="http://7xku3c.com1.z0.glb.clouddn.com/static/css/animate.css">
+	<link rel="stylesheet" href="http://7xku3c.com1.z0.glb.clouddn.com/static/css/bootstrap.css">
+	<link rel="stylesheet" href="http://7xku3c.com1.z0.glb.clouddn.com/static/css/icomoon.css">
+
+	<link rel="stylesheet" href="http://7xku3c.com1.z0.glb.clouddn.com/static/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="http://7xku3c.com1.z0.glb.clouddn.com/static/css/owl.theme.default.min.css">
+
+	<link rel="stylesheet" href="http://7xku3c.com1.z0.glb.clouddn.com/static/css/style.css">
+	<script src="http://7xku3c.com1.z0.glb.clouddn.com/static/js/modernizr-2.6.2.min.js"></script>
+	<!--[if lt IE 9]>
+	<script src="http://7xku3c.com1.z0.glb.clouddn.com/static/js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body class="boxed">
+
+	<!-- Loader -->
+	<div class="fh5co-loader"></div>
+
+	<div id="wrap">
+
+	<div id="fh5co-page">
+		<header id="fh5co-header" role="banner">
+			<div class="container">
+				<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle dark"><i></i></a>
+				<div id="fh5co-logo"><a href="index.html"><img src="http://7xku3c.com1.z0.glb.clouddn.com/2325256348.jpg?imageView2/2/h/80" alt="张颖"></a></div>
+				<nav id="fh5co-main-nav" role="navigation">
+					<ul>
+						<li><a href="/index.html">首页</a></li>
+						<li class="has-sub">
+							<div class="drop-down-menu">
+								<a href="/Go/index.html">Go</a>
+								<div class="dropdown-menu-wrap">
+									<ul>
+										<li><a href="/Go/index.html">Go</a></li>
+										<li><a href="/Docker/index.html">Docker</a></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li class="has-sub">
+							<div class="drop-down-menu">
+								<a href="/Item/index.html">Item</a>
+								<div class="dropdown-menu-wrap">
+									<ul>
+										<li><a href="/Java/index.html">Java</a></li>
+										<li><a href="/Plan/">Plan</a></li>
+										<li><a href="/Recently/">Recently</a></li>
+										
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li class="cta"><a href="/Linux/index.html">Linux</a></li>
 					</ul>
-				</div>
-			</nav>
-		</div>
-
-		<div class="container">
-            <div class="col-md-8">			
-			<div class="content">
-				{{.MDContent}}
-				<hr>
+				</nav>
 			</div>
+		</header>
+		<!-- Header -->
 
+		
+		<div id="fh5co-intro" class="fh5co-section">
+			<div class="container">
+				<div class="row row-bottom-padded-sm">
+					<div class="col-md-12">
+						{{.MDContent}}
+					</div>
+				</div>
+
+			</div>
 		</div>
 
-			<div class="col-md-4 sidebar">
-			  <div class="panel panel-default">
-				<div class="panel-body">
-				  <div align="left">
-				  	<h4><small>学习链接</small></h4>
-				  </div>
-				  <hr>
-					<strong><a href="https://gowalker.org/" title="gowalker" rel="nofollow">gowalker</a></strong> 
-					<strong><a href="https://godoc.org/" title="godoc" rel="nofollow">godoc</a></strong> 
-					<strong><a href="https://gopm.io/" title="gopm" rel="nofollow">gopm</a></strong> 
-					<strong><a href="http://stdlib.daoapp.io" title="stdlib" rel="nofollow">gostd</a></strong>
-					<strong><a href="https://www.shiyanlou.com/" title="shiyanlou" rel="nofollow">shiyanlou</a></strong>
-				</div>
-			  </div>
-
-<div class="panel panel-default">
-	<div class="panel-heading">
-	  <h3 class="panel-title">状态</h3>
-	</div>
-	<table width="100%" class="status">
-	  <thead>
-		<tr>
-		  <th>&nbsp;</th>
-		  <th></th>
-		</tr>
-	  </thead>
-	  <tbody>
-		<tr>
-		  <td class="status-label"><a href="/Go">Go</a></td>
-		  <td class="value"><a href="/Go">9</a></td>
-		</tr>
-		<tr>
-		  <td class="status-label"><a href="/Java">Java</a></td>
-		  <td class="value"><a href="/Java">8</a></td>
-		</tr>
-		<tr>
-		  <td class="status-label"><a href="/Item">Item</a></td>
-		  <td class="value"><a href="/Item">5</a></td>
-		</tr>
-		<tr>
-		  <td class="status-label"><a href="/Linux">Linux</a></td>
-		  <td class="value"><a href="/Linux">6</a></td>
-		</tr>
-		<tr>
-		  <td class="status-label"><a href="/Docker">Docker</a></td>
-		  <td class="value"><a href="/Docker">2</a></td>
-		</tr>
-	  </tbody>
-	</table>
-  </div>
-
-<div class="panel panel-default">
-	<div class="panel-heading">
-	  <h3 class="panel-title">recently</h3>
-	</div>
-	<div class="panel-content" align="center">
-		<h4><a href="/Recently">web-site</a></h4>
-	</div>
-  </div>
-
-
-		<div class="col-md-12">
-		<footer class="footer">
-			<div class="row footer-bottom">
-				<ul class="list-inline text-center">
-					<div class="copy-right" style="color:#4d5152">
-						<h6><small>©2015-2017 toukii </small></h6>
+		<footer id="fh5co-footer" role="contentinfo">
+			<div class="container">
+				<div class="row row-bottom-padded-sm">
+					<div class="col-md-4 col-sm-12">
+						<div class="fh5co-footer-widget">
+							<h3>关于我</h3>
+							<p>Gopher；典型IT从业人员，专注后台开发。</p>
+						</div>
 					</div>
-				</ul>
+					<div class="col-md-3 col-md-push-2 col-sm-12 col-sm-push-0">
+						
+					</div>
+					<div class="col-md-3 col-md-push-1 col-sm-12 col-sm-push-0">
+						<div class="fh5co-footer-widget">
+							<h3>友情连接</h3>
+							<ul class="fh5co-footer-link">
+								<li><a href="http://eijan.daoapp.io">Eijan</a></li>
+								
+							</ul>
+						</div>
+					</div>
+					
+				</div>
+
+				<div class="row">
+					<div class="col-md-12">
+						<div class="fh5co-copyright">
+							<p class="pull-left">&copy; 2017 Toukii. All Rights Reserved. </p>
+							<p class="pull-right">Powered by <a href="https://daocloud.io" target="_blank" title="daocloud">daocloud</a></p>
+						</div>
+					</div>
+				</div>
 			</div>
 		</footer>
-		</div>
+	</div>
+	</div>
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-chevron-down"></i></a>
+	</div>
+	
+	<script src="http://7xku3c.com1.z0.glb.clouddn.com/static/js/jquery.min.js"></script>
+	<script src="http://7xku3c.com1.z0.glb.clouddn.com/static/js/jquery.easing.1.3.js"></script>
+	<script src="http://7xku3c.com1.z0.glb.clouddn.com/static/js/bootstrap.min.js"></script>
+	<script src="http://7xku3c.com1.z0.glb.clouddn.com/static/js/owl.carousel.min.js"></script>
+	<script src="http://7xku3c.com1.z0.glb.clouddn.com/static/js/main.js"></script>
+
 	</body>
 </html>
+
