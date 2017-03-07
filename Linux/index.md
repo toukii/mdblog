@@ -85,3 +85,6 @@ export LC_ALL='zh_CN.utf8'
 ## [ubuntu](ubuntu.html)
 
  ubuntu source list
+
+
+ kvm
