@@ -3,6 +3,12 @@
 
 ---------------------
 
+##  [httpvf](httpvf.html)
+
+* http REST API verify
+
+---------------------
+
 ##	[mdbgEg](mdbgEg)
 
 __markdown blog engine__ for _GITHUB_
