@@ -10,9 +10,15 @@ export CLASSPATH=.:$JAVA_HOME/lib:$JAVA_HOME/lib/tools.jar
 
 --------------------------------------
 
+##  [redis-watch](redis-watch.html)
+
+*	redis watch 实现秒杀
+
+--------------------------------------
+
 ##  [redis-lock](redis-lock.html)
 
-redis lock
+*	redis lock
 
 --------------------------------------
 

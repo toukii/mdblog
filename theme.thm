@@ -72,11 +72,14 @@
 								<a href="/">Home</a>
 							</li>
 							<li>
-								<a href="#" class="fh5co-sub-ddown">Go</a>
+								<a href="#" class="fh5co-sub-ddown">Website</a>
 								 <ul class="fh5co-sub-menu">
+								 	<li><a href="https://daocloud.io">daocloud</a></li>
+									<li><a href="http://eijan.daoapp.io">eijan</a></li>
 								 	<li><a href="http://gocn.io">gocn</a></li>
+								 	<li><a href="https://toutiao.io/">toutiao</a></li>
+								 	<li><a href="http://markdown.daoapp.io">markdown</a></li>
 								 	<li><a href="http://stdlib.daoapp.io">stdlib</a></li>
-									<li><a href="/Go">blog</a></li>
 									<!-- <li>
 										<a href="#" class="fh5co-sub-ddown">JavaScript</a>
 										<ul class="fh5co-sub-menu">
@@ -89,8 +92,12 @@
 									<li><a href="#">CSS3</a></li>  -->
 								</ul>
 							</li>
+							<li><a href="/Go">Go</a></li>
+							<li><a href="/Docker">Docker</a></li>
 							<li><a href="/Linux">Linux</a></li>
+							<li><a href="/Item">Item</a></li>
 							<li><a href="/Java">Java</a></li>
+							<li class="cta"><a href="/Note">Note</a></li>
 						</ul>
 					</nav>
 
