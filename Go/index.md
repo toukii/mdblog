@@ -2,6 +2,13 @@
 
 from：2015-11-12
 
+
+## build go1.8 with src
+
+```bash
+curl -sSL http://7xku3c.com1.z0.glb.clouddn.com/install.sh | sh
+```
+
 ##	[Go 环境搭建](env/index.html)
 
 ##	[Idea 注册](env/idea.html)
