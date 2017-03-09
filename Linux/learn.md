@@ -26,3 +26,10 @@ find ./ -name *_test.go | xargs rm -rf
 ```
 traceroute baidu.com
 ```
+
+设置时间
+
+```
+date -s "2017-03-09 09:24:30"
+```
+
