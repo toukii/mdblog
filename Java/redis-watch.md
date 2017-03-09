@@ -79,3 +79,5 @@ func Kill(string userid){
 	fmt.Println(userid, "秒杀失败！")
 }
 ```
+
+## [jedisTemplate 使用](http://www.cnblogs.com/softidea/p/5720938.html)
