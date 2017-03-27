@@ -33,3 +33,7 @@ traceroute baidu.com
 date -s "2017-03-09 09:24:30"
 ```
 
+```
+du --max-depth=1 -m .
+du -d1 -Bm .
+```

@@ -104,8 +104,9 @@
 				</div>
 			</header>
 			
+			<!-- http://7xku3c.com1.z0.glb.clouddn.com/fanqie/2.pic_hd.jpg?imageMogr2/thumbnail/640x600/gravity/Center/crop/x400/format/jpg/interlace/1/blur/1x0/quality/100 -->
 			<!-- START #fh5co-hero -->
-			<aside id="fh5co-hero" style="background-image: url(http://7xku3c.com1.z0.glb.clouddn.com/fanqie/2.pic_hd.jpg?imageMogr2/thumbnail/640x600/gravity/Center/crop/x400/format/jpg/interlace/1/blur/1x0/quality/100);">
+			<aside id="fh5co-hero" style="background-image: url(http://7xku3c.com1.z0.glb.clouddn.com/hero2.jpg);">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2">

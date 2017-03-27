@@ -16,6 +16,7 @@
 
 ```
 -Xms256m -Xmx512m -XX:MaxNewSize=256m -XX:MaxPermSize=256m
+-Xms512M -Xmx1024M -XX:PermSize=256M -XX:MaxPermSize=512m
 ```
 
 _2016-03-25_
