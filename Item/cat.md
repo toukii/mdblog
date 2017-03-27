@@ -1,0 +1,109 @@
+<head>
+	<title>163 music</title>
+<style type="text/css">
+#header{
+	width: 30%;
+	/* height: 50px; */
+	background-color: #CCC;
+	margin: 0 auto;
+}
+#content{
+	width: 30%;
+	/* height: 50px; */
+	background-color: #FC4;
+	margin: 0 auto;
+	padding-top: 80px;
+}
+#img,#song{
+	height: 50px;
+	padding-left: 5px;
+	float: left;
+}
+#share{
+	height: 50px;
+	float: right;
+}
+#song-name{
+	font-size: 18px;
+	height: 30px;
+	/* font-weight: ; */
+}
+#songer{
+	height: 20px;
+	font-size: 14px;
+	/* font-weight: ; */
+}
+div .header{
+	width:50px;
+	height:50px;
+}
+
+#black-circle{
+	margin: 0 auto;
+	background-color: black;
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+	-moz-animation:change 2s linear infinite;
+}
+#cd-circle{
+	margin: 50px 50px;
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	z-index: 2;
+	-moz-animation:change 40s linear infinite;
+	/* animation: change 4s linear infinite;   */
+	animation-duration:10s;
+	-moz-animation-duration:10s;
+}
+
+@-moz-keyframes change{
+
+
+    0%{  
+	    -webkit-transform: rotate(0deg);  
+	        -ms-transform: rotate(0deg);  
+	         -o-transform: rotate(0deg);  
+	            transform: rotate(0deg);  
+    }  
+	/* 50%{
+		-webkit-transform: rotate(180deg);  
+            -ms-transform: rotate(180deg);  
+             -o-transform: rotate(180deg);  
+                transform: rotate(180deg);  
+	}   */
+    100% {  
+        -webkit-transform: rotate(360deg);  
+            -ms-transform: rotate(360deg);  
+             -o-transform: rotate(360deg);  
+                transform: rotate(360deg);  
+    }  
+
+}
+
+</style>
+</head>
+<div id='header'>
+	<div id="img">
+		<img class="header" src="http://7xku3c.com1.z0.glb.clouddn.com/chinaums/%E9%93%B6%E8%81%94.jpg">
+	</div>
+	<div id="song">
+		<div id="song-name">My Heart</div>
+		<div id="songer">Larry Carlton</div>
+	</div>
+	<div id="share">
+		<img class="header" src="http://7xku3c.com1.z0.glb.clouddn.com/docker.png">
+	</div>
+</div>
+
+<div id="content">
+	<div style="clear: both;">
+		<div id="black-circle">
+			<img class="Rotation" id="cd-circle" width="200px" height="200px" src="http://7xku3c.com1.z0.glb.clouddn.com/cat19.pic.jpg">
+		</div>
+	</div>
+	<div>
+		
+	</div>
+</div>
