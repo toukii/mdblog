@@ -94,3 +94,5 @@ export LC_ALL='zh_CN.utf8'
   git & git submodule
 
 ## [nodejs](mode.html)
+
+## [server](server.html)
