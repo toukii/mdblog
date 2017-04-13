@@ -18,6 +18,7 @@ curl -sSL http://7xku3c.com1.z0.glb.clouddn.com/install.sh | sh
 
 >[Go学习材料](go.html)
 
+## [Go web](web.html)
 
 ## 笔记
 
