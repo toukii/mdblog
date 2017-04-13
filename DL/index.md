@@ -1,11 +1,17 @@
 # 深度学习资料整理
 
+## [基本概念学习](learn1.html)
+
+线性回归，梯度下降法
+
 ## TensorFlow
 
  - [hello,TF](http://python.jobbole.com/87513)
 
 
  - [DL 训练技巧](http://mp.weixin.qq.com/s/q-psFtF04KotBf6i6dQwvA)
+
+ - [图解tensorflow](http://www.cnblogs.com/yao62995/p/5773142.html)
 
 ## 阅面科技系列文章
 
