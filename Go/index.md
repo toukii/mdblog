@@ -27,6 +27,8 @@ curl -sSL http://7xku3c.com1.z0.glb.clouddn.com/install.sh | sh
 
 >[学习源码](11-14/index.html)
 
+## [chan总结](chan.html)
+
 ##	~~[src](src/index.html)~~
 
 ##	[openSRC](openSRC/index.html)
