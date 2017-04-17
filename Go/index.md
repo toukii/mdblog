@@ -21,9 +21,7 @@ curl -sSL http://7xku3c.com1.z0.glb.clouddn.com/install.sh | sh
 >[Go 基本知识点](go/index.html)
 
 
->算法
-
-## [algorithm](algorithm/index.html)
+## [算法](algorithm/index.html)
 
 
 
