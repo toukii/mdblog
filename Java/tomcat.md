@@ -19,4 +19,6 @@
 -Xms512M -Xmx1024M -XX:PermSize=256M -XX:MaxPermSize=512m
 ```
 
+[压测限制](http://blog.csdn.net/hzzhoushaoyu/article/details/48769805)
+
 _2016-03-25_

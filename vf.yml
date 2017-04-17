@@ -1,0 +1,9 @@
+-
+  url: http://toukii.daoapp.io/callback
+  method: POST
+  header:
+    "Content-Type" : 'application/json'
+  body: '{"commits":[{"added": ["DL/learn1.md"],"removed": [],"modified": ["DL/index.md"]}]}'
+
+  resp:
+    body: 1

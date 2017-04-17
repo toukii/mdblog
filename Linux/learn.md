@@ -37,3 +37,5 @@ date -s "2017-03-09 09:24:30"
 du --max-depth=1 -m .
 du -d1 -Bm .
 ```
+
+### [linux 服务器模型](http://blog.csdn.net/lmh12506/article/details/7753978)
