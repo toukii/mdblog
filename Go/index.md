@@ -1,5 +1,6 @@
 #	Go笔记
 
+
 ## build go1.8 with src
 
 ```bash

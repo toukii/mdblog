@@ -54,6 +54,14 @@
 	<script src="http://7xku3c.com1.z0.glb.clouddn.com/static/js/respond.min.js"></script>
 	<![endif]-->
 
+
+<style type="text/css">
+pre{
+	background-color: #DAF9CA;
+	color: #376956;
+}
+</style>
+
 	</head>
 	<body>
 
