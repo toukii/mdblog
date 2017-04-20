@@ -60,10 +60,56 @@ pre{
 	background-color: #DAF9CA;
 	color: #376956;
 }
+#fh5co-header-section.fh5co-scrolled{
+	background: #C3C3F3;
+}
+.hiddened{top: -90px;}
+.showed{top:0;z-index: 9999;}
 </style>
 
 	</head>
 	<body>
+<script src="http://7xku3c.com1.z0.glb.clouddn.com/static/js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){  
+    var p=0,t=0;  
+  
+    $(window).scroll(function(e){  
+            p = $(this).scrollTop();  
+            if (p<=50) {
+            	$('body').addClass('fh5co-mobile-menu-visible');
+                $('#fh5co-header-section').addClass('fh5co-scrolled');
+                $('#fh5co-header-section').css("z-index",10);
+            }else{
+            
+	            if(t<=p){//下滚  
+	                $('body').removeClass('fh5co-mobile-menu-visible');
+	                $('#fh5co-header-section').removeClass('fh5co-scrolled');
+	                $('#fh5co-header-section').css("z-index",-1);
+	            }  
+	              
+	            if(t>p+100){//上滚  
+	                $('body').addClass('fh5co-mobile-menu-visible');
+	                $('#fh5co-header-section').addClass('fh5co-scrolled');
+	                $('#fh5co-header-section').css("z-index",10);
+	            }  
+	            setTimeout(function(){t = p;},300);   	
+            }      
+    });  
+});
+$(function(){  
+ //  	var scrollPos = $(this).scrollTop();
+	if ( $('body').hasClass('fh5co-mobile-menu-visible')==false ) {
+		$('body').addClass('fh5co-mobile-menu-visible');
+	}
+	$('#fh5co-header-section').addClass('fh5co-scrolled');
+	
+	// // Parallax
+	// $('.fh5co-hero-intro').css({
+	//       'opacity' : 1-(scrollPos/300)
+	// });
+});
+</script>
 
 			<!-- START #fh5co-header -->
 			<header id="fh5co-header-section" role="header" class="" >
@@ -114,27 +160,8 @@ pre{
 			</header>
 			
 			<!-- http://7xku3c.com1.z0.glb.clouddn.com/fanqie/2.pic_hd.jpg?imageMogr2/thumbnail/640x600/gravity/Center/crop/x400/format/jpg/interlace/1/blur/1x0/quality/100 -->
-			<!-- START #fh5co-hero -->
-			<aside id="fh5co-hero" style="background-image: url(http://7xku3c.com1.z0.glb.clouddn.com/hero2.jpg);">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-8 col-md-offset-2">
-							<div class="fh5co-hero-wrap">
-								<div class="fh5co-hero-intro">
-										<h2>Find inspiration<span></span></h2>
-										<h1>Pursue life</h1>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</aside>
-            
 
-			<div id="fh5co-main">
-
-
-
+			<div style="margin-top: 100px;">
 				<div id="fh5co-intro" class="fh5co-section">
 					<div class="container">
 						<div class="row row-bottom-padded-sm">
@@ -160,7 +187,7 @@ pre{
 			
 			
 		<!-- jQuery -->
-		<script src="http://7xku3c.com1.z0.glb.clouddn.com/static/js/jquery-1.10.2.min.js"></script>
+		
 		<!-- jQuery Easing -->
 		<!-- <script src="http://7xku3c.com1.z0.glb.clouddn.com/static/js/jquery.easing.1.3.js"></script> -->
 		<!-- Bootstrap -->
@@ -177,7 +204,7 @@ pre{
 		<!-- FastClick for Mobile/Tablets -->
 		<!-- <script src="http://7xku3c.com1.z0.glb.clouddn.com/static/js/fastclick.js"></script> -->
 		<!-- Main JS -->
-		<script src="http://7xku3c.com1.z0.glb.clouddn.com/static/js/main2.js"></script>
+		<!-- <script src="http://7xku3c.com1.z0.glb.clouddn.com/static/js/main2.js"></script> -->
 
 	</body>
 </html>
