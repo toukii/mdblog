@@ -39,3 +39,11 @@ du -d1 -Bm .
 ```
 
 ### [linux 服务器模型](http://blog.csdn.net/lmh12506/article/details/7753978)
+
+## grep&sort
+
+```
+grep -io a learn.md
+
+ll -t | sort -rn -k 2 -t :
+```

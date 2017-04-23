@@ -13,13 +13,10 @@ http://blog.csdn.net/warhin/article/details/7101180
 
 http://bhdweb.iteye.com/blog/1663907
 
-### IDEA 注册
-
-http://www.iteblog.com/idea/
-
 
 ### 多线程
 
 http://blog.csdn.net/yinzhong39/article/details/45621277
 
 http://yuncode.net/code/c_549feea83272f95
+

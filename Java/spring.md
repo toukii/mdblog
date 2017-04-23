@@ -187,3 +187,7 @@ _2015-12-04_
 
 
 _2016/03/11
+
+### spring POST json
+
+post json, 要么用Map<String,Object> 接收参数；要么用对象接收参数；
