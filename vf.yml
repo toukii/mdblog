@@ -1,9 +1,9 @@
 -
-  url: http://toukii.daoapp.io/callback
+  url: http://localhost:8080/callback
   method: POST
   header:
     "Content-Type" : 'application/json'
-  body: '{"commits":[{"added": ["DL/learn1.md"],"removed": [],"modified": []}]}'
+  body: '{"commits":[{"added": ["DL/learn1.md"],"removed": [],"modified": ["theme.thm"]}]}'
 
   resp:
     body: 1
