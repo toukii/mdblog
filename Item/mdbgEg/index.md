@@ -43,7 +43,7 @@
 *	可以在自己的项目根目录添加文件名为**theme.thm**的模板文件:
 
 
-```
+```html
 <!DOCTYPE html>
 <html>
 	<head>

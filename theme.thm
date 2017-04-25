@@ -84,7 +84,7 @@ pre{
 <script src="http://7xku3c.com1.z0.glb.clouddn.com/static/js/jquery-1.10.2.min.js"></script>
 <script type="text/javascript">
 $(function() {
-	$("pre").each(function(index, elem) {
+	$("code").each(function(index, elem) {
 		var content = $(this).text();
 		var lines = content.split("\n");
 		var result = '';
