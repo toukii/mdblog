@@ -42,18 +42,22 @@
 
 *	可以在自己的项目根目录添加文件名为**theme.thm**的模板文件:
 
-		<!DOCTYPE html>
-		<html>
-			<head>
-				<meta charset="utf-8">
-				<title>mdblog</title>
-			</head>
-			<body>
-				<div>
-					{{.MDContent}}
-				</div>
-			</body>
-		</html>
+
+```
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>mdblog</title>
+	</head>
+	<body>
+		<div>
+			{{.MDContent}}
+		</div>
+	</body>
+</html>
+```
+
 
 **完成以上步骤，提交"代码"即可完成更新;另外，也支持在线更新模板。**
 
