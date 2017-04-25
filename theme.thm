@@ -60,6 +60,18 @@ pre{
 	background-color: #DAF9CA;
 	color: #376956;
 }
+/*.lineA{
+	background-color: #c1e9c1;
+}*/
+.lineB{
+	background-color: #dbffdb;
+}
+.linenum{
+	color: rgba(27,31,35,0.3);
+	float: left;
+	padding-left: 3px;
+	width: 15px;
+}
 #fh5co-header-section.fh5co-scrolled{
 	background: #C3C3F3;
 }
@@ -71,6 +83,23 @@ pre{
 	<body>
 <script src="http://7xku3c.com1.z0.glb.clouddn.com/static/js/jquery-1.10.2.min.js"></script>
 <script type="text/javascript">
+$(function() {
+	$("pre").each(function(index, elem) {
+		var content = $(this).text();
+		var lines = content.split("\n");
+		var result = '';
+		if (lines.length<4) {return}
+		for (var i = 0; i < lines.length-1; i++) {
+			if (i%2==0) {
+				result+= "<div class='lineA'><div class='linenum'>" +(i+1) +"</div> " + lines[i]+"</div>";
+			}else{
+				result+= "<div class='lineB'><div class='linenum'>" +(i+1) +"</div> " + lines[i]+"</div>";
+			}
+		}
+		$(this).html(result);
+	});
+	
+})
 $(document).ready(function(){  
     var p=0,t=0;  
   

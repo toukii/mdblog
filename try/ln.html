@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"> 
+	<title></title>
+
+<style type="text/css">
+pre{
+	background-color: #5F8;
+}
+.lineA{
+	background-color: #c1e9c1;
+}
+.lineB{
+	background-color: #dbffdb;
+}
+.linenum{
+	color: rgba(27,31,35,0.3);
+	float: left;
+	padding-left: 3px;
+	width: 15px;
+}
+</style>
+</head>
+<body>
+<script src="http://7xku3c.com1.z0.glb.clouddn.com/static/js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript">
+$(function() {
+	$("pre").each(function(index, elem) {
+		var content = $(this).text();
+		var lines = content.split("\n");
+		var result = '';
+		if (lines.length<4) {return}
+		for (var i = 0; i < lines.length-1; i++) {
+			if (i%2==0) {
+				result+= "<div class='lineA'><div class='linenum'>" +(i+1) +"</div> " + lines[i]+"</div>";
+			}else{
+				result+= "<div class='lineB'><div class='linenum'>" +(i+1) +"</div> " + lines[i]+"</div>";
+			}
+		}
+		console.log(result);
+		$(this).html(result);
+	});
+	
+})
+</script>
+
+<span id="markdownContent" name="markdownContent"><h1><a name="test" class="anchor" href="#test" rel="nofollow" aria-hidden="true"><span class="octicon octicon-link"></span></a>test</h1>
+
+<pre><code>go install
+</code></pre>
+
+<p>sdff</p>
+
+<p>2</p>
+
+<pre><code>汉字
+
+
+## enen
+p
+</code></pre>
+
+</body>
+</html>

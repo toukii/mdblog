@@ -1,5 +1,5 @@
 -
-  url: http://localhost:8080/callback
+  url: http://localhost/callback
   method: POST
   header:
     "Content-Type" : 'application/json'
