@@ -8,36 +8,62 @@
 pre{
 	background-color: #5F8;
 }
-.lineA{
+/*.lineA{
 	background-color: #c1e9c1;
-}
+}*/
 .lineB{
 	background-color: #dbffdb;
 }
 .linenum{
 	color: rgba(27,31,35,0.3);
 	float: left;
-	padding-left: 3px;
+	padding-left: 5px;
 	width: 15px;
+	text-align: center;
+}
+.line{
+	float:left;
+	width:25px;
 }
 </style>
 </head>
 <body>
+<pre><div class="line">
+<div class="linenum">1</div>
+<div class="linenum">2</div>
+<div class="linenum">3</div>
+<div class="linenum">4</div>
+</div>
+<div><code>for
+loop
+while
+do</code>
+</div>
+</pre>
 <script src="http://7xku3c.com1.z0.glb.clouddn.com/static/js/jquery-1.10.2.min.js"></script>
 <script type="text/javascript">
 $(function() {
 	$("pre").each(function(index, elem) {
 		var content = $(this).text();
+		var numctx = "<div class='line'>";
 		var lines = content.split("\n");
 		var result = '';
+		var ctx = '<code>';
 		if (lines.length<4) {return}
 		for (var i = 0; i < lines.length-1; i++) {
+			numctx += "<div class='linenum'>" + (i+1) + "</div>";
+			console.log(i,lines[i])
+			var c = lines[i];
+			if (c=="") {c="<br>";}
 			if (i%2==0) {
-				result+= "<div class='lineA'><div class='linenum'>" +(i+1) +"</div> " + lines[i]+"</div>";
+				ctx+= "<div class='lineA'>" + c+"</div>";
 			}else{
-				result+= "<div class='lineB'><div class='linenum'>" +(i+1) +"</div> " + lines[i]+"</div>";
+				ctx+= "<div class='lineB'>" + c+"</div>";
 			}
 		}
+		numctx += "</div>";
+		ctx += "</code>"
+		result += numctx + ctx;
 		console.log(result);
 		$(this).html(result);
 	});

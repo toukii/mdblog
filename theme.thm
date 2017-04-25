@@ -66,6 +66,10 @@ pre{
 .lineB{
 	background-color: #dbffdb;
 }
+.line{
+	float:left;
+	width:25px;
+}
 .linenum{
 	color: rgba(27,31,35,0.3);
 	float: left;
@@ -91,19 +95,24 @@ pre{
 $(function() {
 	$("pre").each(function(index, elem) {
 		var content = $(this).text();
+		var numctx = "<div class='line'>";
 		var lines = content.split("\n");
 		var result = '';
-		if (lines.length<3) {return}
+		var ctx = '<code>';
+		if (lines.length<4) {return}
 		for (var i = 0; i < lines.length-1; i++) {
+			numctx += "<div class='linenum'>" + (i+1) + "</div>";
+			var c = lines[i];
+			if (c=="") {c="<br>";}
 			if (i%2==0) {
-				result+= "<div class='lineA'><div class='linenum'>" +(i+1) +"</div>" + lines[i]+"</div>";
+				ctx+= "<div class='lineA'>" + c+"</div>";
 			}else{
-				result+= "<div class='lineB'><div class='linenum'>" +(i+1) +"</div>" + lines[i]+"</div>";
-			}
-			if (""==lines[i]) {
-				result+="<br>"
+				ctx+= "<div class='lineB'>" + c+"</div>";
 			}
 		}
+		numctx += "</div>";
+		ctx += "</code>"
+		result += numctx + ctx;
 		$(this).html(result);
 	});
 	
