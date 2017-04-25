@@ -70,7 +70,12 @@ pre{
 	color: rgba(27,31,35,0.3);
 	float: left;
 	padding-left: 3px;
-	width: 15px;
+	width: 25px;
+	-moz-user-select: none; /*火狐*/
+	-webkit-user-select: none; /*webkit浏览器*/
+	-ms-user-select: none; /*IE10*/
+	-khtml-user-select: none; /*早期浏览器*/
+	user-select: none;
 }
 #fh5co-header-section.fh5co-scrolled{
 	background: #C3C3F3;
@@ -84,16 +89,19 @@ pre{
 <script src="http://7xku3c.com1.z0.glb.clouddn.com/static/js/jquery-1.10.2.min.js"></script>
 <script type="text/javascript">
 $(function() {
-	$("code").each(function(index, elem) {
+	$("pre").each(function(index, elem) {
 		var content = $(this).text();
 		var lines = content.split("\n");
 		var result = '';
-		if (lines.length<4) {return}
+		if (lines.length<3) {return}
 		for (var i = 0; i < lines.length-1; i++) {
 			if (i%2==0) {
-				result+= "<div class='lineA'><div class='linenum'>" +(i+1) +"</div> " + lines[i]+"</div>";
+				result+= "<div class='lineA'><div class='linenum'>" +(i+1) +"</div>" + lines[i]+"</div>";
 			}else{
-				result+= "<div class='lineB'><div class='linenum'>" +(i+1) +"</div> " + lines[i]+"</div>";
+				result+= "<div class='lineB'><div class='linenum'>" +(i+1) +"</div>" + lines[i]+"</div>";
+			}
+			if (""==lines[i]) {
+				result+="<br>"
 			}
 		}
 		$(this).html(result);
