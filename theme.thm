@@ -56,6 +56,9 @@
 
 
 <style type="text/css">
+.col-md-8{
+	min-height: 482px;
+}
 pre{
 	background-color: #DAF9CA;
 	color: #376956;
