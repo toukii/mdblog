@@ -5,7 +5,7 @@
   header:
     "Content-Type" : 'application/json'
     "User-Agent": "GitHub-Hookshot/893821"
-  body: '{"commits":[{"added": ["DL/learn1.md"],"removed": [],"modified": ["index.md"]}]}'
+  body: '{"commits":[{"added": ["DL/learn1.md"],"removed": [],"modified": ["index.html"]}]}'
 
   resp:
     body: 1
