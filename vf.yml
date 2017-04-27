@@ -1,11 +1,13 @@
 -
   #url: http://localhost:8080/callback
-  url: http://localhost/callback
+  #url: http://localhost/callback
+  url: http://toukii.daoapp.io/callback
   method: POST
   header:
     "Content-Type" : 'application/json'
     "User-Agent": "GitHub-Hookshot/893821"
-  body: '{"commits":[{"added": ["DL/learn1.md"],"removed": [],"modified": ["index.html"]}]}'
+  #body: '{"commits":[{"added": ["DL/learn1.md"],"removed": [],"modified": ["index.html"]}]}'
+  body: '{"commits":[{"added": ["Java/SignUtil.md"],"removed": [],"modified": ["index.html","Java/index.md"]}]}'
 
   resp:
     body: 1
