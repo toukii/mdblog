@@ -1,9 +1,11 @@
 -
-  url: http://localhost:8080/callback
+  #url: http://localhost:8080/callback
+  url: http://localhost/callback
   method: POST
   header:
     "Content-Type" : 'application/json'
-  body: '{"commits":[{"added": ["DL/learn1.md"],"removed": [],"modified": ["theme.thm"]}]}'
+    "User-Agent": "GitHub-Hookshot/893821"
+  body: '{"commits":[{"added": ["DL/learn1.md"],"removed": [],"modified": ["index.md"]}]}'
 
   resp:
     body: 1
