@@ -52,7 +52,7 @@ protoc，以及 grpc 插件和其它插件：采用 ProtoBuf 作为 IDL 时，�
  
     在实际应用中，GRPC尚未完全提供连接池、服务自动发现、进程内负载均衡等高级特性，需要开发人员额外的封装；最大的问题，就是GRPC生成的接口，调用方式实在是不太便捷（JAVA），最起码与thrift相比还有差距，希望未来能够有所改进。
 
-## Test
+## [Test](https://github.com/toukii/protobuf)
 
 ### 1. 需要使用protobuf定义接口: hello.proto
 
