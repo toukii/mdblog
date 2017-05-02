@@ -33,3 +33,6 @@ http://www.cnblogs.com/vikings-blog/p/4238062.html
 https://github.com/think2011/localResizeIMG
 
 http://think2011.net/localResizeIMG/test/
+
+
+sql 优化
