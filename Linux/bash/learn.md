@@ -47,3 +47,15 @@ grep -io a learn.md
 
 ll -t | sort -rn -k 2 -t :
 ```
+
+###  判断
+```
+# 判断目录是否存在
+if [[ -d $dir ]]
+# 判断文件是否存在
+if [[ -f $file ]]
+# 判断值是否不为空
+if [[ -n $var ]]
+# 判断是否有执行权限
+if [[ -x $bash ]]
+```

@@ -91,6 +91,22 @@ echo ${#arr[*]}
 
 ```
 
-#执行顺序：别名－特殊内建命令－函数－内建命令－外部命令
+#__执行顺序：别名－特殊内建命令－函数－内建命令－外部命令__
 
 [参考](http://www.cnblogs.com/end/archive/2012/09/25/2701915.html)
+
+## 练习：git项目清理
+
+```
+#!/bin/sh
+for file in `ls`
+do
+	if [[ -d $file ]]
+	then
+		echo "$file is a dir"
+		cd $file
+		git gc --force
+		cd ..
+	fi
+done
+```

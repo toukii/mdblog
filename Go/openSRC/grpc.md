@@ -156,3 +156,13 @@ func main() {
     log.Printf("Greeting: %s", r.Reply)
 }
 ```
+
+## [gRPC interceptor](http://colobu.com/2017/04/17/dive-into-gRPC-interceptor/)
+
+ - gRPC 拦截器
+
+## [gRPC stream](http://colobu.com/2017/04/06/dive-into-gRPC-streaming/)
+
+ - gRPC 流式处理
+
+## [gRPC服务发现&负载均衡](http://colobu.com/2017/03/25/grpc-naming-and-load-balance/)
