@@ -42,6 +42,10 @@ protoc，以及 grpc 插件和其它插件：采用 ProtoBuf 作为 IDL 时，�
 
 `protoc --go_out=plugins=grpc:. hello.proto`
 
+
+[扩展阅读](http://mp.weixin.qq.com/s/w6hHkme-JwuDgEv95XLptA)
+
+
 ## summery
 
  	1）GRPC尚未提供连接池
