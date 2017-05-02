@@ -4,6 +4,12 @@
 
 --------------------------------------
 
+## [bash](bash)
+ 
+*  bash programming
+
+--------------------------------------
+
 ##	[screen](screen.html)
 
 *	screen catching
