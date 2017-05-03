@@ -16,3 +16,8 @@
 [go1.8 新特性](http://www.tuicool.com/articles/za6F7zE)
 
 [ezbuy redis-orm](http://www.jianshu.com/p/18943ef3a85d)
+
+## go 知识
+
+go gc， mark&sweet，1.8 版本已经是并非mark，gc停顿在100us以下；
+编程技巧： 大map增加gc停顿时间，尽量减少map大小，实现途径：key hash到多个map。
