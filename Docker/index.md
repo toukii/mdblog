@@ -16,3 +16,5 @@
 
  - http://www.cnblogs.com/vikings-blog/p/4238062.html
  
+
+[服务发现](http://dockone.io/article/667)
