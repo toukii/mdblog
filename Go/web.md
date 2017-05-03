@@ -10,3 +10,7 @@
   http://jsmean.com/blog/subject/golang
 
   http://blog.csdn.net/alvine008/article/details/52038565
+
+[2017 gopher china 感想](http://fuxiaohei.me/2017/4/22/gopherchina-2017.html)
+
+[go1.8 新特性](http://www.tuicool.com/articles/za6F7zE)
