@@ -35,3 +35,7 @@ Redis的基本事务需要用到MULTI命令和EXEC命令，这种事务可以让
 　　5、DISCARD  取消事务
 
 ## [mongodb](http://www.cnblogs.com/no7dw/archive/2013/05/17/3083419.html)
+
+## [GEO地理结构](geo.html)
+
+## [redis, mongodb 应用场景](useful.html)
