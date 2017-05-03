@@ -21,7 +21,8 @@ public Boolean getLock(String key, long t1) {
 			}
 			String t2str = jedisCluster.getObject().get(key);
 			if (StringUtil.isNullorEmpty(t2str)) { // GET nil
-				String t22str = jedisCluster.getObject().getSet(key, t1+""); // 尝试获得锁
+				// 尝试获得锁
+				String t22str=jedisCluster.getObject().getSet(key,t1+"");
 				if (StringUtil.isNullorEmpty(t22str)) { // 获得锁
 					return true;
 				}
@@ -29,7 +30,7 @@ public Boolean getLock(String key, long t1) {
 				long t2 = Long.parseLong(t2str);
 				if (t1 - t2 > 10000L) {// 超时
 					// 尝试获得锁
-					String t22str = jedisCluster.getObject().getSet(key, t1+"");
+					String t22str=jedisCluster.getObject().getSet(key,t1+"");
 					if ((t2str).equals(t22str)) { // 获得锁
 						return true;
 					}
