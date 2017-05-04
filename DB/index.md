@@ -4,6 +4,10 @@
 
 * sql 学习：表关联查询
 
+## [sql 优化](optimal.html)
+
+* MySQL索引优化、查询优化和存储优化经验
+
 ## oracle
 
 ```

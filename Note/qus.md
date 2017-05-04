@@ -20,11 +20,6 @@
 3. go 基础知识
 4. 算法
 
-## 提问
-
-1. 技术相关： 微服务架构的附属产品是否成熟，监控、负载均衡
-2. 业务指标如何，多大的数据量，未来的挑战是否有吸引力？
-
 
 
 ### [几个有意思的问题](http://blog.csdn.net/chen825919148/article/details/8053955)
@@ -34,3 +29,13 @@
 1. jsnm的优化及特点；bug：惊群效应
 2. [redis分布式锁](/DB/redis-lock.html)
 
+## question
+
+1. http tcp udp > 网络
+2. pprof > 调优
+3. 对比语言，go语言特性
+4. top，docker > linux命令，系统知识
+5. 算法
+6. mysql索引及优化
+7. 现在用的技术：dubbo spring mybatis
+8. 源码：hash，handler
