@@ -1,5 +1,9 @@
 # db
 
+## [表关联查询](sql.html)
+
+* sql 学习：表关联查询
+
 ## oracle
 
 ```
@@ -9,6 +13,14 @@ Error: ORA-00932: inconsistent datatypes: expected - got CLOB
 [不能在CLOB上distinct](http://www.cnblogs.com/pilang/archive/2012/02/28/2371784.html)
 
 ## redis
+
+### [redis 分布式锁](redis-lock.html)
+
+##  [redis-watch](redis-watch.html)
+
+*	redis watch 实现秒杀
+
+--------------------------------------
 
 ### 1. [Redis为什么使用单进程单线程方式也这么快](http://www.cnblogs.com/syyong/p/6231326.html)
 

@@ -1,4 +1,35 @@
-# redis 分布式锁实现
+# redis 分布式锁
+
+
+__（1） red-lock__
+
+```
+func Lock(k, uuid string) {
+  for i:=0;i<10;i++{
+	if ok:=redis.setnx(k,uuid,10s); ok{
+		return true;
+	}
+	time.Sleep(100)
+  }
+  return false;
+}
+```
+
+```
+func UnLock(k, uuid string) {
+	old := redis.get(k);
+	lua_compare_del(k,old,uuid);
+}
+
+lua_compare_del: // lua script
+if old == nil || old != uuid
+  return
+fi
+redis.del(k)
+```
+
+__(2) setnx get getset__
+
 
 ## 加锁实现
 
@@ -70,7 +101,13 @@ C2 比对C2和C22发现两者不同，处理逻辑认为未获取锁。
 ```java
 public void releaseLock(String key){
 	try {
-		jedisCluster.getObject().del(key);
+		// check key
+		String v = jedisCluster.getObject().get(key);
+		if(null == v) return;
+	    long t2 = Long.parseLong(v);
+		if (System.currentTimeMillis - t2 < 9800L) {// 假设最长0.2s才能保证执行完del
+			jedisCluster.getObject().del(key);
+		}
 	} catch (Exception e) {
 		e.printStackTrace();
 	}
@@ -89,6 +126,8 @@ public Boolean getLock(String key, long t1) {
 		String t2str = jedisCluster.getObject().get(key);
 		if (StringUtil.isNullorEmpty(t2str)) { // GET nil
 			// 尝试获得锁
+			// 1. 这里可能可以通过getset操作获得锁，当然也可以continue，用setnx获得锁；
+			// 2. getset设置了新的时间戳，会不会有影响：不会，t1是比较接近旧的值的
 			String t22str=jedisCluster.getObject().getSet(key,t1+"");
 			if (StringUtil.isNullorEmpty(t22str)) { // 获得锁
 				return true;
@@ -104,6 +143,8 @@ public Boolean getLock(String key, long t1) {
 			}
 		}
 		
+		// 3. 重试次数*睡眠时长最好小于超时时间
+		// 4. 超时时间根据业务而定
 		if (n++ > 100) {
 			return false;
 		}

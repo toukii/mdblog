@@ -18,10 +18,6 @@
 * target
 
 
-## [sql](sql.html)
-
-* sql
-
 ## [hurt](hurt.html)
 
 * hurt
