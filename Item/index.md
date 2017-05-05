@@ -13,6 +13,8 @@
 
 __markdown blog engine__ for _GITHUB_
 
+[eijan](http://eijan.daoapp.io): 博客内容在[github.com/eijan/blog](https://github.com/eijan/blog), 项目构建在[github.com/datc/blog](https://github.com/datc/blog)。
+
 ---------------------
 
 ##	[jsnm](jsnm)
@@ -35,9 +37,4 @@ _usage_
 
 ----------------------
 
-##	[mdbg](mdbg)
-
-_markdown blog_
-
-----------------------
 
