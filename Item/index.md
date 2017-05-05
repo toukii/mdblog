@@ -15,7 +15,7 @@ __markdown blog engine__ for _GITHUB_
 
 ---------------------
 
-##	[Jsnm](jsnm)
+##	[jsnm](jsnm)
 
 _json mapping for map[string]interface{}_
 
