@@ -1,4 +1,5 @@
 *.xwd
+.DS_Store
 *.tmp
 mdbg
 *.exe
