@@ -172,9 +172,6 @@ $(function(){
 					<!-- START #fh5co-menu-wrap -->
 					<nav id="fh5co-menu-wrap" role="navigation">
 						<ul class="sf-menu" id="fh5co-primary-menu">
-							<li class="active">
-								<a href="/">Home</a>
-							</li>
 							<li>
 								<a href="#" class="fh5co-sub-ddown">Website</a>
 								 <ul class="fh5co-sub-menu">
@@ -184,6 +181,7 @@ $(function(){
 								 	<li><a href="https://toutiao.io/">toutiao</a></li>
 								 	<li><a href="http://markdown.daoapp.io">markdown</a></li>
 								 	<li><a href="http://stdlib.daoapp.io">stdlib</a></li>
+								 	<li><a href="/Page">page</a></li>
 									<!-- <li>
 										<a href="#" class="fh5co-sub-ddown">JavaScript</a>
 										<ul class="fh5co-sub-menu">
