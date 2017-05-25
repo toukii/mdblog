@@ -39,7 +39,9 @@ import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.
 
 ```json
 "env": {
-	"path":"G:\\Go\\bin"
+	"path":"G:\\Go\\bin",
+	"GOROOT":"G:\\Go",
+	"GOPATH":"$GOPATH"
 },
 ```
 
