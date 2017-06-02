@@ -27,13 +27,14 @@ var TiNews = (function () {
         var i;
         var name="";
         console.log(arr)
+        var bg=["bg1","bg2","bg3","bg4"];
         for (i = 0; i < arr.length; i++) {
             name=arr[i].main;
             // out += '<div id="' + i + '">' +
             //     '<label>' + name + '</label><strong>'+arr[i].author_name+'</strong><hr>'
             //     // '<figcaption>' + arr[i].caption + '</figcaption>' +
             //     '</div>';
-            out+='<div class="warp"><div class="card"><div class="main">'+ name +'</div><div class="author">'+ arr[i].author_name +'</div></div></div>';
+            out+='<div class="warp"><div class="card '+ bg[i%4] +'"><div class="main">'+ name +'</div><div class="author">'+ arr[i].author_name +'</div></div></div>';
         }
         console.log(out);
         document.getElementById("news").innerHTML = out;
