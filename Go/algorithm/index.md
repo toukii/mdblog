@@ -1,3 +1,5 @@
+
+
 ```go
 package main
 
@@ -29,4 +31,26 @@ func main() {
 	km(arr, 0, len(arr)-1)
 }
 
+```
+
+
+## DeduplicationId
+
+```
+// 去重，并保证顺序
+// new cap is equal the old len : 新的slice的cap等于旧slice的len
+func DeduplicationId(ids []int64) []int64 {
+	idMap := make(map[int64]bool)
+	var index int
+	for i, id := range ids {
+		if _, ex := idMap[id]; !ex {
+			idMap[id] = true
+			if i != index {
+				ids[index] = id
+			}
+			index++
+		}
+	}
+	return ids[:index]
+}
 ```
