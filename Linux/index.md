@@ -98,3 +98,15 @@ export LC_ALL='zh_CN.utf8'
 ## [nodejs](mode.html)
 
 ## [server](server.html)
+
+
+## crontab
+
+```
+ crontab -e 
+ crontab -l
+ crontab -r
+
+ minute hour day month week command
+```
+
