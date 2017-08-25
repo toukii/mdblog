@@ -26,3 +26,20 @@
 ```
 export LC_ALL='zh_CN.utf8'
 ```
+
+```
+dockerpid=$(sudo docker ps | grep 40 | awk '{print $1}')
+if [ -n "$dockerpid" ]
+then
+  echo docker-stop-$dockerpid
+  sudo docker stop $dockerpid
+  echo $dockerpid > service_dockerpid.log
+  ./serviceCmd > service.log 2>&1 &
+  tail -f service.log
+else
+  ps -ef | grep serviceCmd | awk '{print $2}' | xargs kill -9
+  echo docker-start-`cat service_dockerpid.log`
+  cat service_dockerpid.log | xargs sudo docker start
+fi
+
+```
