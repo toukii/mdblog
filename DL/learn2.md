@@ -11,3 +11,11 @@ https://www.tensorflow.org/tutorials/image_recognition
 
 
 [机器学习算法](https://mp.weixin.qq.com/s/BFnJUNF0olX1pl8LnVc40A)
+
+[使用TensorFlow识别交通标志](http://www.jianshu.com/p/3c7f329b29ee?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
+
+[对象识别](https://zhuanlan.zhihu.com/p/31247372?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
+
+[算法](http://www.wangjialong.cc/2017/09/29/leetcode55/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
+
+[算法2](https://github.com/cristaloleg/goal/blob/master/string/string_test.go)
