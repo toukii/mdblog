@@ -24,6 +24,13 @@ curl -sSL http://7xku3c.com1.z0.glb.clouddn.com/install.sh | sh
 
 ## [算法](algorithm/index.html)
 
+## 
 
+```
+// Deprecated: Use strings.HasPrefix instead.
+func xxx
+```
+
+https://rakyll.org/deprecated/
 
 _from：2015-11-12_

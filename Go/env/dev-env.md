@@ -71,6 +71,13 @@ import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.
 
 如果提示：Hi defnngj You've successfully authenticated, but GitHub does not provide shell access. 说明你连接成功了
 
+## git 多账号
 
+http://memoryboxes.github.io/blog/2014/12/07/duo-ge-gitzhang-hao-zhi-jian-de-qie-huan/
+
+```
+git config user.user toukii
+git config user.email toukii@yahoo.com
+```
 
 
