@@ -45,6 +45,23 @@ import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.
 },
 ```
 
+Preference --> Setting -- User-setting
+```
+{
+	"auto_complete": false,
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
+	"default_line_ending": "unix",
+	"font_size": 14,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"auto_complete":true,
+	"auto_match_enabled":true,
+	"theme": "Material-Theme-Lighter.sublime-theme"
+}
+```
+
 
 ##	Github Configure
 
